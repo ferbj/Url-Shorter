@@ -17,6 +17,7 @@ class CreateTablaLinks extends Migration
               $table->bigIncrements('id');
               $table->text('url');
               $table->string('hash',500);
+              $table->string('ip',100);
  			  $table->integer('contador');
               $table->timestamps();
         });
